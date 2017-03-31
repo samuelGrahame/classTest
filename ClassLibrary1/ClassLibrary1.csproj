@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <NoStdLib>true</NoStdLib>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99D3F4D3-2FFF-4AA7-B9EE-B51BACA03C90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <AssemblyName>ClassLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_0itfrsiexd5.cs" />
+    <Compile Include="_0kcnqisvdvs.cs" />
+    <Compile Include="_0ombddg00ww.cs" />
+    <Compile Include="_0qlpsu1jmti.cs" />
+    <Compile Include="_0vfimwqc2wa.cs" />
+    <Compile Include="_0vi1jqbuw0w.cs" />
+    <Compile Include="_1a0nxzkqyga.cs" />
+    <Compile Include="_1ch0q1v5rk2.cs" />
+    <Compile Include="_1koov4ukrmp.cs" />
+    <Compile Include="_1nnkh5oim1q.cs" />
+    <Compile Include="_1pqbmtw0yen.cs" />
+    <Compile Include="_1w13ilwggck.cs" />
+    <Compile Include="_25imc3lxtll.cs" />
+    <Compile Include="_2dpb5vibrhj.cs" />
+    <Compile Include="_2if1aaruesk.cs" />
+    <Compile Include="_2lc5zmsyor4.cs" />
+    <Compile Include="_2mnomjxpz5e.cs" />
+    <Compile Include="_2mpppbyh55v.cs" />
+    <Compile Include="_2p5bg5brw0h.cs" />
+    <Compile Include="_2pbwaffj3jt.cs" />
+    <Compile Include="_3hv5cmozqn3.cs" />
+    <Compile Include="_3oeubk2jcg1.cs" />
+    <Compile Include="_3rygw4g4t3q.cs" />
+    <Compile Include="_3tia2t4gd2j.cs" />
+    <Compile Include="_444xffwva4m.cs" />
+    <Compile Include="_4ccsl0mmkld.cs" />
+    <Compile Include="_4f54sjkhy3q.cs" />
+    <Compile Include="_4htunu1ildx.cs" />
+    <Compile Include="_4rq5w4r4lj2.cs" />
+    <Compile Include="_4vyikpr2323.cs" />
+    <Compile Include="_4xp0wftfzvw.cs" />
+    <Compile Include="_5egszqec2ph.cs" />
+    <Compile Include="_5i2c5css0kx.cs" />
+    <Compile Include="_5mk0whsj5zs.cs" />
+    <Compile Include="_5vpxcki1j1s.cs" />
+    <Compile Include="_5x5dxmnx41j.cs" />
+    <Compile Include="_5zxxuocqt05.cs" />
+    <Compile Include="_abcrxsgzu1e.cs" />
+    <Compile Include="_aesycnrpcsw.cs" />
+    <Compile Include="_alifhdgsye0.cs" />
+    <Compile Include="_asdb5nbgxdm.cs" />
+    <Compile Include="_avbwkmkxt3v.cs" />
+    <Compile Include="_aw0vagsazaz.cs" />
+    <Compile Include="_ay3wffsznzh.cs" />
+    <Compile Include="_bbnuenwkq41.cs" />
+    <Compile Include="_bk1dvbodedz.cs" />
+    <Compile Include="_bl0c3v2ljmh.cs" />
+    <Compile Include="_btrtjoqovhr.cs" />
+    <Compile Include="_bxqu24h3w3b.cs" />
+    <Compile Include="_c210fhgjaqg.cs" />
+    <Compile Include="_c5jaipi30oc.cs" />
+    <Compile Include="_cdtvtbxcdss.cs" />
+    <Compile Include="_cgcbbp3dh1b.cs" />
+    <Compile Include="_ckwvaqai4oi.cs" />
+    <Compile Include="_cqnwnnzzidm.cs" />
+    <Compile Include="_crhv0pcvlww.cs" />
+    <Compile Include="_cud3yo24yqo.cs" />
+    <Compile Include="_cwcjiois5me.cs" />
+    <Compile Include="_cwelxgc5dny.cs" />
+    <Compile Include="_cwngmypzesm.cs" />
+    <Compile Include="_d0ytvvhaezc.cs" />
+    <Compile Include="_d2uims0nxis.cs" />
+    <Compile Include="_dc10vlkzlno.cs" />
+    <Compile Include="_dc25f4ntxsf.cs" />
+    <Compile Include="_dfrrt4wdocg.cs" />
+    <Compile Include="_e10331wf2ga.cs" />
+    <Compile Include="_eaqeqgbdgbx.cs" />
+    <Compile Include="_ectvvw1xdjl.cs" />
+    <Compile Include="_elzkh1ubroh.cs" />
+    <Compile Include="_em2rjpocait.cs" />
+    <Compile Include="_ep5a5vmio1i.cs" />
+    <Compile Include="_ew54vfxdafq.cs" />
+    <Compile Include="_extiukxrndk.cs" />
+    <Compile Include="_ezbqyhqa4e3.cs" />
+    <Compile Include="_f1euwehd2wi.cs" />
+    <Compile Include="_f2lxo3bp1xq.cs" />
+    <Compile Include="_fblk04tdi43.cs" />
+    <Compile Include="_fby34zkx5dm.cs" />
+    <Compile Include="_fmbxfjeoypn.cs" />
+    <Compile Include="_fpes2pgzm5h.cs" />
+    <Compile Include="_fuiwejjqhgi.cs" />
+    <Compile Include="_fwztjyjimwf.cs" />
+    <Compile Include="_g1yzkf3iytj.cs" />
+    <Compile Include="_gxcl4sgoeo1.cs" />
+    <Compile Include="_gxejamwibpa.cs" />
+    <Compile Include="_h0534oxaatm.cs" />
+    <Compile Include="_h0ooiagswyr.cs" />
+    <Compile Include="_h5pmcdc1dyx.cs" />
+    <Compile Include="_hezsfufnxix.cs" />
+    <Compile Include="_hk4ixdab0uo.cs" />
+    <Compile Include="_hxmpvavoxr3.cs" />
+    <Compile Include="_hyltreigstd.cs" />
+    <Compile Include="_hyqqwauds32.cs" />
+    <Compile Include="_i23cct31lyc.cs" />
+    <Compile Include="_i4jryj1qvch.cs" />
+    <Compile Include="_ia5ob2pcqml.cs" />
+    <Compile Include="_ilf4mb4mjcy.cs" />
+    <Compile Include="_is5ikgfurwj.cs" />
+    <Compile Include="_j0umo2g5rrk.cs" />
+    <Compile Include="_j3ds5o5nz4e.cs" />
+    <Compile Include="_jdtsqqeb5vm.cs" />
+    <Compile Include="_jhzjrnd1ext.cs" />
+    <Compile Include="_jlbclahzlir.cs" />
+    <Compile Include="_key3erqmmpy.cs" />
+    <Compile Include="_kisg253mwww.cs" />
+    <Compile Include="_kplec3tago2.cs" />
+    <Compile Include="_l5mmfpba5m0.cs" />
+    <Compile Include="_lla2vsb5zqy.cs" />
+    <Compile Include="_lmmpp1bizxh.cs" />
+    <Compile Include="_lyw4hafxx1p.cs" />
+    <Compile Include="_lz2a5ifqsxs.cs" />
+    <Compile Include="_m4lbjiea1jv.cs" />
+    <Compile Include="_ml1avb5mfhm.cs" />
+    <Compile Include="_mn1kbebxyax.cs" />
+    <Compile Include="_mues3ajuzni.cs" />
+    <Compile Include="_mum4wafvrza.cs" />
+    <Compile Include="_muq2trd14m0.cs" />
+    <Compile Include="_nbyzep4r4jc.cs" />
+    <Compile Include="_nff4e4jw1ww.cs" />
+    <Compile Include="_nmkfmz0i1sx.cs" />
+    <Compile Include="_np1avzv0btt.cs" />
+    <Compile Include="_nqn0paqakpv.cs" />
+    <Compile Include="_nstauug1cwc.cs" />
+    <Compile Include="_osz2sprbykc.cs" />
+    <Compile Include="_oujigg1urdk.cs" />
+    <Compile Include="_peusktdncae.cs" />
+    <Compile Include="_pjgqbkytctd.cs" />
+    <Compile Include="_pma5ndzwhaf.cs" />
+    <Compile Include="_pvm4e0tvrlu.cs" />
+    <Compile Include="_pyr0a1jw2ec.cs" />
+    <Compile Include="_q32wrc124s3.cs" />
+    <Compile Include="_qlo5veas1qx.cs" />
+    <Compile Include="_qyijtumf4zi.cs" />
+    <Compile Include="_rgvgobek3fl.cs" />
+    <Compile Include="_s0nikpb4kao.cs" />
+    <Compile Include="_s3h2jhr5qrv.cs" />
+    <Compile Include="_scb4xq11lrr.cs" />
+    <Compile Include="_sd2tygowauz.cs" />
+    <Compile Include="_sin0tuwkglw.cs" />
+    <Compile Include="_sm135ky42xz.cs" />
+    <Compile Include="_srontxekklc.cs" />
+    <Compile Include="_stcnbqtkkdp.cs" />
+    <Compile Include="_t2dv0b00kfk.cs" />
+    <Compile Include="_te1ndo22fvl.cs" />
+    <Compile Include="_toobeeyo3k3.cs" />
+    <Compile Include="_tp014thv14k.cs" />
+    <Compile Include="_tyiawp52tvr.cs" />
+    <Compile Include="_tyue1a5v1r3.cs" />
+    <Compile Include="_ujyh4hzrpez.cs" />
+    <Compile Include="_uo3s50adone.cs" />
+    <Compile Include="_utmv1xohlrf.cs" />
+    <Compile Include="_uwrplurimzw.cs" />
+    <Compile Include="_uydqch3s4cx.cs" />
+    <Compile Include="_va2jgur4g3n.cs" />
+    <Compile Include="_vcphfzrr5rq.cs" />
+    <Compile Include="_vctxyoinsxl.cs" />
+    <Compile Include="_vfzysknyrot.cs" />
+    <Compile Include="_vgcfvyqjvfw.cs" />
+    <Compile Include="_vl1sommiclu.cs" />
+    <Compile Include="_vt1roxllqmw.cs" />
+    <Compile Include="_vva2w4siar3.cs" />
+    <Compile Include="_w5gvioyf0em.cs" />
+    <Compile Include="_wfsfxz1rx1t.cs" />
+    <Compile Include="_wlzn3gx2no5.cs" />
+    <Compile Include="_wnlkd3oyeev.cs" />
+    <Compile Include="_wpv0dz1mfln.cs" />
+    <Compile Include="_wx30qbtlcoq.cs" />
+    <Compile Include="_wytlflzrfua.cs" />
+    <Compile Include="_xiqjmkscuxi.cs" />
+    <Compile Include="_xotkzqnquan.cs" />
+    <Compile Include="_xxbrxirjelx.cs" />
+    <Compile Include="_y5rs54fpq30.cs" />
+    <Compile Include="_ydj0wiwgzji.cs" />
+    <Compile Include="_yr1y3zkpkul.cs" />
+    <Compile Include="_ywn0xpmuoph.cs" />
+    <Compile Include="_z4wvvy2vjcr.cs" />
+    <Compile Include="_z5tze5jwifj.cs" />
+    <Compile Include="_zlpgkzrgtal.cs" />
+    <Compile Include="_zmfsgfak4nh.cs" />
+    <Compile Include="_zxooiopkjkv.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bridge\output\readme.txt" />
+    <Content Include="Bridge\www\demo.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bridge\bridge.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Bridge, Version=15.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Core.15.7.0\lib\net40\Bridge.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Bridge.Html5, Version=15.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Html5.15.7.0\lib\net40\Bridge.Html5.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Bridge.Min.15.7.0\build\Bridge.Min.targets" Condition="Exists('..\packages\Bridge.Min.15.7.0\build\Bridge.Min.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Bridge.Min.15.7.0\build\Bridge.Min.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Bridge.Min.15.7.0\build\Bridge.Min.targets'))" />
+  </Target>
+</Project>
